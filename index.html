@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Amit Sarkar" content="Photo Viewer">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+	
+    <div class="gallery" id="gallery"></div>
+	
+    <div class="popup" id="popup">
+        <button onclick="closePopup()">Close</button>
+        <div class="navigation">
+            <button onclick="prevImage()">&#9664;</button>
+            <button onclick="nextImage()">&#9654;</button>
+        </div>
+        <img id="popupImg" src="" alt="Full size image">
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+</body>
+</html>
